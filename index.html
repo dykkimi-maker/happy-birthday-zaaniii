@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Happy Birthday Zaan 🎂</title>
+</head>
+
+<body style="background:black;color:white;text-align:center;font-family:Arial;">
+
+<h1>🔒 Secret Birthday Website 🔒</h1>
+
+<p>Enter the password to continue</p>
+
+<input type="password" id="pass" placeholder="Password">
+<br><br>
+
+<button onclick="check()">Unlock 🎁</button>
+
+<script>
+function check(){
+  var password = document.getElementById("pass").value;
+
+  if(password=="zaan2026"){
+    window.location.href="home.html";
+  }
+  else{
+    alert("Wrong Password 😜");
+  }
+}
+</script>
+
+</body>
+</html>
